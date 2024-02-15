@@ -1,0 +1,17 @@
+{
+	"scripts": {
+		"start": "ts-node src/main.ts",
+		"watch": "nodemon --exec ts-node src/main.ts"
+	},
+	"dependencies": {
+		"discord.js": "^14.14.1",
+		"dotenv": "^16.4.4",
+		"minecraft-protocol": "^1.46.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.17",
+		"nodemon": "^3.0.3",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	}
+}
